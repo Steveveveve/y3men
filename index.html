@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steven Men's Personal Website</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1b1b1b;
+            color: #e0e0e0;
+        }
+        header {
+            background-color: #282c34;
+            color: #61dafb;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #61dafb;
+            padding: 15px 20px;
+            text-decoration: none;
+            text-align: center;
+            transition: background 0.3s;
+        }
+        nav a:hover {
+            background-color: #444;
+        }
+        section {
+            padding: 40px 20px;
+            max-width: 900px;
+            margin: auto;
+            background: #1f1f1f;
+            margin-top: 30px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+            border-radius: 8px;
+        }
+        h2 {
+            border-bottom: 2px solid #61dafb;
+            padding-bottom: 10px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            margin-bottom: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #282c34;
+            color: #61dafb;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        /* 增加科技感的动画和效果 */
+        section h2::after {
+            content: '';
+            display: block;
+            width: 50px;
+            height: 2px;
+            background: #61dafb;
+            transition: width 0.3s;
+        }
+        section h2:hover::after {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Steven Men</h1>
+    <p>University of Waterloo / Financial Analysis and Risk Management / Statistics Minor</p>
+</header>
+
+<nav>
+    <a href="#home">主页</a>
+    <a href="#about">关于我</a>
+    <a href="#experience">工作经历</a>
+    <a href="#education">教育背景</a>
+    <a href="#skills">技能</a>
+    <a href="#contact">联系我</a>
+</nav>
+
+<section id="home">
+    <h2>主页</h2>
+    <p>欢迎来到我的个人网站！我是 Steven Men，现就读于滑铁卢大学，主修金融分析与风险管理，辅修统计学。</p>
+</section>
+
+<section id="about">
+    <h2>关于我</h2>
+    <p>我是 Steven Men，目前在滑铁卢大学就读，主修金融分析与风险管理，辅修统计学。我对会计、数据管理和投资分析有深入的研究和实践经验。</p>
+    <p>联系方式：<br>
+    手机：289-339-8643<br>
+    邮箱：y3men@uwaterloo.ca<br>
+    学生证号码：21013177</p>
+</section>
+
+<section id="experience">
+    <h2>工作经历</h2>
+    <h3>会计实习生 - <a href="http://icarecentre.org" target="_blank">iCare Surgical & Optical Centre</a></h3>
+    <p>2023年9月 - 2023年12月</p>
+    <ul>
+        <li>使用Excel准备月度损益表、成本分析和关键绩效指标（KPI）。</li>
+        <li>提供收费代码分析，显示医生的每个OHIP和私人收费代码的收入曲线。</li>
+        <li>组织客户数据，包括预约、个别眼科检查和手术。</li>
+        <li>每日对账单与发票进行对账，负责解决任何不匹配的交易。</li>
+        <li>使用Plooto软件对账应付账款与支付清单。</li>
+        <li>通过加拿大健康系统（CHS）的EMR系统有效安排医生的日程。</li>
+        <li>每天进行多项眼科检查，包括视野测试、OCT和Optos测试。</li>
+    </ul>
+    <h3>电子装配工 - <a href="https://gvalighting.com/" target="_blank">GVA Lighting</a></h3>
+    <p>2022年6月 - 2022年8月</p>
+    <ul>
+        <li>制造电子元件、子组件和产品。</li>
+    </ul>
+</section>
+
+<section id="education">
+    <h2>教育背景</h2>
+    <h3><a href="https://uwaterloo.ca/" target="_blank">滑铁卢大学</a></h3>
+    <p>2022年9月 - 至今</p>
+    <ul>
+        <li>获得滑铁卢大学校长奖学金</li>
+        <li>相关课程：金融会计（成绩95%），管理会计（成绩97%）</li>
+    </ul>
+</section>
+
+<section id="skills">
+    <h2>技能</h2>
+    <h3>可迁移技能</h3>
+    <ul>
+        <li>细致入微的工作风格，从银行对账和应付账款对账中获得。</li>
+        <li>强大的适应能力和快速学习能力，通过处理多项任务，包括准备财务报表、眼科检查和每日平衡，在iCare手术中心担任会计实习生期间获得。</li>
+        <li>出色的时间管理技能，通过在学术学期内创建有效的时间表来按时处理大量具有挑战性的任务。</li>
+        <li>通过双语语言学习（母语中文和雅思7.0英语）提高了沟通技巧。</li>
+    </ul>
+    <h3>具体技能</h3>
+    <ul>
+        <li>会计：掌握了簿记、审计，并拓宽了税务和MS Excel的知识。能够编制财务报表，包括损益表和资产负债表。</li>
+        <li>数据管理：能够为公司提供关键绩效指标（KPI），并通过Excel对CSV、TXT文件进行数据分析。</li>
+        <li>商业：撰写了大量关于价值投资的报告，能够通过分析公司的基本财务指标和财务报表提供投资建议。</li>
+        <li>Python：设计了Python游戏“贪吃蛇”和“四连环”，并建立了良好的Python算法知识。</li>
+    </ul>
+</section>
+
+<section id="contact">
+    <h2>联系我</h2>
+    <p>你可以通过以下方式联系我：</p>
+    <ul>
+        <li>手机：289-339-8643</li>
+        <li>邮箱：y3men@uwaterloo.ca</li>
+        <li>学生证号码：21013177</li>
+    </ul>
+</section>
+
+<footer>
+    <p>© 2024 Steven Men. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
